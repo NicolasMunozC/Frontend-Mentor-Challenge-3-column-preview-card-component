@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsBox{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: left;
+    margin: 30px auto;
+}
+
+.sedansBox{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px;
+}
+
+.sedansBox button{
+    color: hsl(31, 77%, 52%);
+}
+
+
+.suvsBox{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+.suvsBox button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxuryBox{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxuryBox button{
+    color: hsl(179, 100%, 13%);
+}
+
+img{
+    margin: 10px 0;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 10px 0;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 10px 0;
+
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.attribution{
+    color: hsl(179, 100%, 13%);
+
+}
+
+.attribution a{
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.attribution a:hover{
+    color: hsl(184, 100%, 22%);
+}
+
+@media only screen and (min-width: 1440px) {
+    .cardsBox{
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        height: 400px;
+        margin: auto;
+    }
+    
+    .sedansBox{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .luxuryBox{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+}
